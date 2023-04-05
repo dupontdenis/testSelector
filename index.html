@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <label for="input">selector</label>
+  <input name="input" class="find alert alert-warning" placeholder="test your selector" data-input />
+  <button class="btn btn-primary" data-action="highlight" data-containing="0">
+  </button>
+  <section class="html" data-src>
+    <div class="top">
+      <h1>h1</h1>
+
+      <ul>
+
+        <li class="A B" id="item.A">l1</li>
+
+        <li class="A" id="b">l2</li>
+
+        <li class="B" id="c">l3</li>
+
+      </ul>
+
+      <footer> footer </footer>
+    </div>
+  </section>
+</body>
+
+</html>

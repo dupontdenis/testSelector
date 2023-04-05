@@ -1,0 +1,12 @@
+.selected {
+  border: 1px dotted blue;
+}
+
+button:before {
+  content: attr(data-containing);
+}
+
+
+body {
+  margin: 1em;
+}
